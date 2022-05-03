@@ -1,0 +1,79 @@
+
+
+nano osszeadas.sh
+
+#!/bin/bash
+
+echo "Adj meg három számot az összeadáshoz:"
+
+read szam1
+read szam2
+read szam3
+
+echo 'expr $szam1 + $szam2 + $szam3'
+
+
+
+
+
+$ curl -o cnet.html https://www.cnet.com/tech/services-and-software/windows-11-how-to-download-microsofts-latest-os-on-your-device/#:~:text=Just%20go%20to%20Settings%20%3E%20Update,Click%20Download%20and%20install.
+
+
+-------------------------------------------------------------
+
+$ wget -O wget.zip https://github.com/jay/wget/archive/refs/heads/master.zip
+
+
+
+touch filefolder.sh
+pico filefolder.sh
+
+#!/bin/bash
+
+# fájlok és mappák megjelenítése az aktuális könyvtárból
+
+echo Displaying Directories
+
+for item in *
+do
+       if [ - d $item }
+	then
+	      echo $item
+       fi
+done
+
+echo Displaying Files
+
+for item in *
+do
+       if [ - f $item }
+	then
+	      echo $item
+       fi
+done
+
+
+
+$ls
+$ cat people.csv
+
+$ grep - Richard people.json
+$ grep - -A3 -B5 Jones people.json
+$ grep - 100565152 people.json
+$ cat people.json|jq '.[].fname' 
+$ cat people.json|jq '.[6].zip'
+$ cat people.json|jq '.[6].lname'
+$ cat people.json|jq '.[1].zip'
+$ cat people.json|jq '.[].lname'
+
+#5
+
+while getopts a:b: options; do
+        case $options in
+	        a) ap=$OPTARG;;
+		B) bo=$OPTARG;;
+	esac
+done
+
+echo "Option A = $ap and Option B = $bo"
+
