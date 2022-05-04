@@ -1,4 +1,4 @@
-
+1#
 
 nano osszeadas.sh
 
@@ -14,7 +14,7 @@ echo 'expr $szam1 + $szam2 + $szam3'
 
 
 
-
+2#
 
 $ curl -o cnet.html https://www.cnet.com/tech/services-and-software/windows-11-how-to-download-microsofts-latest-os-on-your-device/#:~:text=Just%20go%20to%20Settings%20%3E%20Update,Click%20Download%20and%20install.
 
@@ -23,7 +23,7 @@ $ curl -o cnet.html https://www.cnet.com/tech/services-and-software/windows-11-h
 
 $ wget -O wget.zip https://github.com/jay/wget/archive/refs/heads/master.zip
 
-
+3#
 
 touch filefolder.sh
 pico filefolder.sh
@@ -52,10 +52,10 @@ do
        fi
 done
 
-
+4#
 
 $ls
-$ cat people.csv
+(itt található people.csv fájl) - $ cat people.csv
 
 $ grep - Richard people.json
 $ grep - -A3 -B5 Jones people.json
@@ -76,4 +76,3 @@ while getopts a:b: options; do
 done
 
 echo "Option A = $ap and Option B = $bo"
-
